@@ -481,88 +481,17 @@ body {
 	z-index: 1;
 	position: relative;
 }
-.arrowlight {
-	background-image: url("img/arrow-light.png");
-    position: absolute;
-    top: -9px;
-    left: 20px;
+
+.tria {
+  width: 0;
+  height: 0;
+  border: 40px solid transparent; 
+  border-bottom-color: white;  
+  border-top: 0;
+  position: absolute;
+  top:-40px;
 }
-.arrowdark {
-	background-image: url("img/arrow-dark.png");
-    position: absolute;
-    top: -9px;
-    left: 20px;
-}
-.box-projects__project:hover .arrowligth{
-	background-image: url("img/arrow-dark.png");
-}
-.upptext {
-	display: block;
-	font-family: Raleway;
-	color:  #c7b29a;
-	font-size: 20px;/* Приближение из-за подстановки шрифтов */
-	font-weight: 500;
-	padding: 30px 113px 14px 25px;
-}
-.downtext {
-	display: block;
-	font-family: Montserrat;
-	color:  #d1d1d1;
-	font-size: 14px;/* Приближение из-за подстановки шрифтов */
-	font-weight: 300;
-	line-height: 20px;/* Приближение из-за подстановки шрифтов */
-	padding-left: 25px;
-}
-/*--------------------------------------------
-			4-th VIDEO DIV 						
--------------------------------------------*/
-.shaddowvideo {
-	width: 1920px;
-	height: 705px;
-	/*background-color: royalblue;*/
-}
-.shaddowvideo_content {
-	width: 1920px;
-	height: 705px;
-	position: relative;
-}
-.video_desc {
-	position: absolute;
-	background-color: grey;
-	opacity: 0.5;
-	width: 1920px;
-    height: 720px;
-    top: 3500px;
-}
-.video_desc-header {
-	font-family: Raleway;
-	color:  #ffffff;
-	font-size: 30px;/* Приближение из-за подстановки шрифтов */
-	font-weight: 500;
-	text-align: center;
-	margin-top: 335px;
-}
-.video_desc-cont {
-	margin: 0 auto;
-	width: 552px;
-	height: auto;
-	font-family: Montserrat;
-	color:  #ffffff;
-	font-size: 16px;/* Приближение из-за подстановки шрифтов */
-	font-weight: 300;
-	line-height: 28px;/* Приближение из-за подстановки шрифтов */
-	text-align: center;
-}
-/*--------------------------------------------
-			5-th BIG DIV 						
--------------------------------------------*/
-.product {
-	width: 1920px;
-	height: 695px;
-	background-color:  #fbfaf8;
-	display: flex;
-    flex-direction: row;
-    align-items: center;
+.box-project__project:hover
 }
 .iphone-in-hand {
 	float: left;
