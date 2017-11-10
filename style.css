@@ -519,7 +519,39 @@ body {
 .shaddowvideo {
 	width: 1920px;
 	height: 705px;
-	background-color: royalblue;
+	/*background-color: royalblue;*/
+}
+.shaddowvideo_content {
+	width: 1920px;
+	height: 705px;
+	position: relative;
+}
+.video_desc {
+	position: absolute;
+	background-color: grey;
+	opacity: 0.5;
+	width: 1920px;
+    height: 720px;
+    top: 3500px;
+}
+.video_desc-header {
+	font-family: Raleway;
+	color:  #ffffff;
+	font-size: 30px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 500;
+	text-align: center;
+	margin-top: 335px;
+}
+.video_desc-cont {
+	margin: 0 auto;
+	width: 552px;
+	height: auto;
+	font-family: Montserrat;
+	color:  #ffffff;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 28px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
 }
 /*--------------------------------------------
 			5-th BIG DIV 						
